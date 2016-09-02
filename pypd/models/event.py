@@ -10,7 +10,7 @@ import re
 import logging
 from itertools import ifilter
 
-from pyod import json
+from pypd import json
 
 from .entity import Entity
 

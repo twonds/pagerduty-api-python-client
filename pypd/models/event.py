@@ -8,8 +8,9 @@ via PagerDuty v2 API.
 """
 import re
 import logging
-import ujson as json
 from itertools import ifilter
+
+from pyod import json
 
 from .entity import Entity
 

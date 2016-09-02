@@ -1,12 +1,13 @@
 """Helpful mixins for PagerDuty entity classes."""
 import logging
 
-import ujson as json
 import requests
 import datetime
 from numbers import Number
 
 import pypd
+from pypd import json
+
 from .errors import (BadRequest, UnknownError, InvalidResponse, InvalidHeaders)
 
 

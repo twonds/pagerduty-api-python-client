@@ -1,4 +1,4 @@
 Mock
-unittest
-ujson
+simplejson
 requests
+requests-mock

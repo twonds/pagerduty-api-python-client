@@ -2,6 +2,8 @@
 # See LICENSE for details.
 import logging
 
+import simplejson as json
+
 from .version import __version__
 from .models.ability import can, abilities
 from .models.add_ons import AddOn

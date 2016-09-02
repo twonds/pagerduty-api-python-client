@@ -1,6 +1,6 @@
 # Copyright (c) PagerDuty.
 # See LICENSE for details.
-import ujson as json
+from pypd import json
 
 
 class Error(Exception):
